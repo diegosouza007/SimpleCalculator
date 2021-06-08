@@ -8,44 +8,126 @@ body {
 }
 
 .container {
-    max-width: 400px;
-    /* width: 1; */
+    max-width: 320px;
+    min-width: 250px;
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 30px;
+    margin: 40px;
     box-shadow: 4px 4px gray;
 }
 
 .calculator {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 10px;
-    /* border: 1px solid black; */
-    /* border-radius: 10px; */
 }
 
 #display {
     border-radius: 6px;
-    border: 1px solid blue;
+    border: 1px solid #8356e6;
     padding: 15px;
-    /* margin: 10px; */
     margin-right: 2px;
     margin-left: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
     appearance: none;
-    grid-column: 1 / 4;
-    grid-row: 1;
+    grid-column: 1 / 5;
+    outline: none;
 }
 
 .button {
-    /* background-color: none; */
-    border: 1px solid blue;
+    border: 1px solid;
     padding: 10px;
-    margin: 2px;
-    /* margin-left: 10px; */
-    /* margin-right: 10px; */
+    margin: 1.5px;
     border-radius: 5px;
     text-align: center;
     appearance: none;
+}
+
+.button__functions {
+    background-color: rgb(128, 128, 128);
+}
+
+span {
+    background-color: #8356e6;
+    color: white;
+}
+
+
+/* Mouse effects */
+
+span:hover {
+    background-color: #9067eb;
+}
+
+.button__functions:hover {
+    background-color: rgb(140, 140, 140);
+    color: white;
+}
+
+
+/* Buttons order */
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 3;
+}
+
+#four {
+    order: 5;
+}
+
+#five {
+    order: 6;
+}
+
+#six {
+    order: 7;
+}
+
+#seven {
+    order: 9;
+}
+
+#eigth {
+    order: 10;
+}
+
+#nine {
+    order: 11;
+}
+
+#zero {
+    order: 13;
+}
+
+#divide {
+    order: 4;
+}
+
+#multiply {
+    order: 8;
+}
+
+#subtract {
+    order: 12;
+}
+
+#result {
+    order: 15;
+}
+
+#sum {
+    order: 16;
+}
+
+#comma {
+    order: 14;
 }
