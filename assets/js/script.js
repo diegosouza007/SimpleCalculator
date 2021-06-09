@@ -7,10 +7,10 @@ let result = '';
 button.map(button => {
     button.addEventListener('click', (e) => {
         switch (e.target.innerText) {
-
             case '=':
                 result = display.innerHTML;
-                console.log(eval(result));
+                display.innerText = eval(result);
+                break;
 
             case 'C':
                 display.innerText = '';
