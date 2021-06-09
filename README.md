@@ -16,4 +16,4 @@ Optei por criar uma simples calculadora, pois acredito ser um bom execício onde
 
 <img src="./assets/img/preview-mobile.webp" width="250px">
 
-Live demo: <a href="https://diegosouza007.github.io/SimpleCalculator/">https://diegosouza007.github.io/SimpleCalculator/</a>
+Live demo: <a href="https://diegosouza007.github.io/SimpleCalculator/">https://diegosouza007.github.io/SimpleCalculator</a>
