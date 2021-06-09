@@ -6,8 +6,14 @@ Optei por criar uma simples calculadora, pois acredito ser um bom execício onde
 
 # Tecnologias usadas
 
-HTML, CSS e JavaScript
+<p float="left">
+<img src="./assets/img/icons8-html-5.svg" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+<img src="./assets/img/icons8-css3.svg" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
+<img src="./assets/img/icons8-javascript.svg" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScripthtml">
+</p>
 
 # Preview
 
-<em>Em desenvolvimento...</em>
+<img src="./assets/img/preview-mobile.webp" width="250px">
+
+Live demo: <a href="https://diegosouza007.github.io/SimpleCalculator/">https://diegosouza007.github.io/SimpleCalculator/</a>
