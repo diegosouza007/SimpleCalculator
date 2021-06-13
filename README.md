@@ -8,7 +8,7 @@ Optei por criar uma simples calculadora, pois acredito ser um bom execício onde
 
 <p float="left">
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img src="./assets/img/icons8-html-5.svg" width="32px"></a>
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="./assets/img/icons8-css3.svg" width="32px></a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="./assets/img/icons8-css3.svg" width="32px"></a>
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="./assets/img/icons8-javascript.svg" width="32px"></a>
 </p>
 
